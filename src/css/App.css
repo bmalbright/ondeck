@@ -1,0 +1,109 @@
+
+.portfolio {
+  /* height: 100%; */
+  text-align: center;
+  background-color: #030A8C;
+  color: white
+}
+ 
+.title {
+  font-family: bookman;
+  margin-top: 10px;
+
+}
+
+.header {
+
+  color: #020873;
+  background-color: #F2F2F2;
+  font-family: bookman;
+  padding: 1rem;
+}
+
+.nav {
+  background-color: #F2F2F2;
+  font-family: bookman;
+}
+
+.home {
+  min-height: 80vh;
+}
+
+.profile {
+  margin-top: 25px;
+}
+
+.paragraph {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ProjectCard {
+  margin-top: 5rem;
+}
+
+.ProjectTitle {
+  color: #27418C;
+  font-family: bookman;
+}
+
+.tech {
+  padding-bottom: 3%;
+}
+
+.resume {
+  min-height: 90vh;
+}
+
+.button {
+margin-top: 30vh;
+}
+
+.tech{
+  padding: 10%;
+}
+
+.contact {
+  min-height: 70vh;
+}
+
+.clickToEmail {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.emailInfo {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.phoneInfo {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+
+.footer {
+  background-color: #25A6D9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

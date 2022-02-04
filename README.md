@@ -1,1 +1,2 @@
-# ondeck
+# On Deck Consulting    
+### This is the site for my consulting company, On Deck Consulting. The site used to be hosted at Squarespace, which I didn't realize the limitations of until after I paid for it. Taking a coding bootcamp just made dislike it more. So I'm rebuilding the site in React. Might start with a placeholder for now to get the domain moved, but will build out the site. 

@@ -13,6 +13,8 @@ export default function Portfolio() {
   return (
         <div>
           <h1 className="title">Tech Portfolio</h1>
+
+          <p> Brian is available for freelance web development projects.</p>
           <Container className='tech'>
           <Row>
               <Col>
@@ -28,7 +30,7 @@ export default function Portfolio() {
               </Row>
             <Row>
               <Col>
-                <Card className="ProjectCard">
+                <Card className="ProjectCard1">
                   <Card.Body>
                     <Card.Title className="ProjectTitle">Leverage: a workout building app</Card.Title>
                         <Card.Img variant="top" src={leverage} />

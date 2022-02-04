@@ -4,9 +4,12 @@ import {
     Navbar, 
     Nav, 
     Container, 
+    Image
   } from 'react-bootstrap';
 
 import "../css/App.css";
+
+import Brand from "../images/icon-57.png"
 
 const AppNavbar = () => {
  
@@ -15,6 +18,7 @@ const AppNavbar = () => {
       <Navbar expand='lg' className="header">
         <Container fluid >
           <Navbar.Brand as={Link} to='/'>
+          <Image src={Brand} alt="On Deck Brand" />
             On Deck Consulting, LLC
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbar' />
@@ -25,10 +29,11 @@ const AppNavbar = () => {
               </Nav.Link>
                 
                   <Nav.Link as={Link} to='/aquatics'>
-                    Projects
+                    Aquatics
                   </Nav.Link>
 
                   <Nav.Link as={Link} to='/projects'>
+                    Tech Projects
                   </Nav.Link>
 
                   <Nav.Link as={Link} to='/resume'>

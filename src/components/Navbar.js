@@ -9,7 +9,7 @@ import {
 
 import "../css/App.css";
 
-import Brand from "../images/icon-57.png"
+import Brand from "../images/ondeck-brand.png"
 
 const AppNavbar = () => {
  

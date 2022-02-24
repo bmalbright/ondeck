@@ -6,7 +6,7 @@ import {
 
 } from 'react-bootstrap';
 
-import Logo from "../images/ondeck-icon-180.png";
+// import Logo from "../images/ondeck-icon-180.png";
 
 import "../css/App.css";
 
@@ -15,7 +15,7 @@ export default function Home() {
     <div className="home">
 
         
-        <Row>
+        {/* <Row>
       
           <Col className="profile">
 
@@ -23,7 +23,7 @@ export default function Home() {
 
           </Col>
         
-        </Row>
+        </Row> */}
        
         <div>
 

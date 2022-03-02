@@ -10,7 +10,7 @@ export default function Resume() {
         <Col>
           <div className="buttonBorder">
             <a
-              href="https://docs.google.com/document/d/1uoeOo8BgYKWQBJQgVuNGTcp6-zfbpPZu6XKrbIvy2jk/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1bIePAKEDjqNSyCack9ZmcJy_sbAqZW13g80xQq4kGuk/edit?usp=sharing"
               target="_blank"
               rel=" noopener noreferrer"
             >

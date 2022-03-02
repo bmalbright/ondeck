@@ -14,7 +14,7 @@ export default function Portfolio() {
         <div>
           <h1 className="title">Tech Portfolio</h1>
 
-          <p> Brian is available for freelance web development projects.</p>
+          <p> I am available for freelance web development projects.</p>
           <Container className='tech'>
           <Row>
               <Col>

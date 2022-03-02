@@ -19,7 +19,7 @@ export default function Resume() {
           </div>
         </Col>
       </Row>
-      <Row className="tech">
+      {/* <Row className="tech">
         <Col>
           <h3 className="title">Full Stack Web Developer</h3>
           <Row>
@@ -43,7 +43,7 @@ export default function Resume() {
             </Col>
           </Row>
         </Col>
-      </Row>
+      </Row> */}
     </div>
   );
 }

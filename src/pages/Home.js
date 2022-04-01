@@ -31,7 +31,7 @@ export default function Home() {
         <Row>
           <Col>
             <p className="paragraph">
-            Hi, I'm Brian Albright, and I founded On Deck Consulting in 2019 primarily as an aquatic safety and competitive swimming based consulting firm based in Austin, TX. 
+            Hi, I'm Brian Albright, and I founded On Deck Consulting in 2019 primarily as an aquatic safety and competitive swimming focused consulting firm based in Austin, TX. 
             You can read more about my 30+ year background in aquatics by clicking on the aquatics page.
             I recently pivoted to a career change to tech, taking a full stack web developer program through UT Austin. 
             As a result, I am offering web design and development services through On Deck Consulting.

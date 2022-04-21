@@ -1,23 +1,16 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 import "../css/App.css";
 
-export default function Home() {
+export default function About() {
   return (
-    <div className="home">
-      <div>
-        <Row>
-          <Col className="loader">
-            <h1>ON DECK CONSULTING</h1>
-          </Col>
-        </Row>
-      </div>
-      {/* <div>
-        <Row>
-          <Col>
-            <p className="paragraph">
-              Hi, I'm Brian Albright, and I founded On Deck Consulting in 2019
+    <div className="about">
+      <Row>
+        <Col>
+          <div className="paragraph">
+            <p>
+            Hi, I'm Brian Albright, and I founded On Deck Consulting in 2019
               primarily as an aquatic safety and competitive swimming focused
               consulting firm based in Austin, TX. You can read more about my
               30+ year background in aquatics by clicking on the aquatics page.
@@ -25,13 +18,6 @@ export default function Home() {
               web developer program through UT Austin. As a result, I am
               offering web design and development services through On Deck
               Consulting.
-              <br />
-              <br />
-              This site is being upgraded after transitioning it from being
-              hosted by Squarespace. I'll be updating it during breaks from
-              other projects. Just keep in mind that it is mostly placeholder
-              right now and not necessarily representative of where I want it to
-              be.
               <br />
               <br />
               The service I'm primarily offering through On Deck Consulting
@@ -43,9 +29,10 @@ export default function Home() {
               <br />
               <br />
             </p>
-          </Col>
-        </Row>
-      </div> */}
+          </div>
+        </Col>
+      </Row>
+
     </div>
   );
 }

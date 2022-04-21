@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
-import AboutMe from './pages/Home';
+import Home from './pages/Home';
+import About from './pages/About'
 import Aquatics from './pages/Aquatics'
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
@@ -19,7 +20,8 @@ function App() {
         <div className='portfolio'>
           <Navbar />
           <Switch>
-            <Route exact path="/" component={AboutMe} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
             <Route exact path="/aquatics" component={Aquatics} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/resume" component={Resume} />

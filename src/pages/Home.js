@@ -1,11 +1,12 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, ThemeProvider } from "react-bootstrap";
 
 import "../css/App.css";
 
 export default function Home() {
   return (
     <div className="home">
+      <ThemeProvider breakpoints={[ 'xxl', 'xl', 'lg', 'md', 'sm', 'xs',]}>
       <div>
         <Row>
           <Col className="loader">
@@ -15,6 +16,8 @@ export default function Home() {
           </Col>
         </Row>
       </div>
+      </ThemeProvider>
+
 
     </div>
   );

@@ -19,23 +19,23 @@ const AppNavbar = () => {
           <Navbar.Collapse id="navbar">
             <Nav className="ml-auto">
 
-              <Nav.Link as={Link} to="/about">
+              <Nav.Link as={Link} to="/about" className="navLink">
                 About
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/aquatics">
+              <Nav.Link as={Link} to="/aquatics" className="navLink">
                 Aquatics
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/projects">
+              <Nav.Link as={Link} to="/projects" className="navLink">
                 Tech Projects
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/resume">
+              <Nav.Link as={Link} to="/resume" className="navLink">
                 Resume
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/contact">
+              <Nav.Link as={Link} to="/contact" className="navLink">
                 Contact Me
               </Nav.Link>
             </Nav>

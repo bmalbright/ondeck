@@ -9,43 +9,13 @@ export default function Home() {
       <div>
         <Row>
           <Col className="loader">
-            <h1>ON DECK CONSULTING</h1>
+            <h1>ON</h1>
+            <h1>DECK</h1>
+            <h1>CONSULTING</h1>
           </Col>
         </Row>
       </div>
-      {/* <div>
-        <Row>
-          <Col>
-            <p className="paragraph">
-              Hi, I'm Brian Albright, and I founded On Deck Consulting in 2019
-              primarily as an aquatic safety and competitive swimming focused
-              consulting firm based in Austin, TX. You can read more about my
-              30+ year background in aquatics by clicking on the aquatics page.
-              I recently pivoted to a career change to tech, taking a full stack
-              web developer program through UT Austin. As a result, I am
-              offering web design and development services through On Deck
-              Consulting.
-              <br />
-              <br />
-              This site is being upgraded after transitioning it from being
-              hosted by Squarespace. I'll be updating it during breaks from
-              other projects. Just keep in mind that it is mostly placeholder
-              right now and not necessarily representative of where I want it to
-              be.
-              <br />
-              <br />
-              The service I'm primarily offering through On Deck Consulting
-              right now is as a public address announcer. I've been announcing
-              swim meets for over 20 years, and am known throughout the swim
-              community. I mostly announce in Texas but am willing to travel.
-              Contact me if you're looking for a professional public address
-              announcer to raise the level of your swim meet.
-              <br />
-              <br />
-            </p>
-          </Col>
-        </Row>
-      </div> */}
+
     </div>
   );
 }

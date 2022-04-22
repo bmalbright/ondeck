@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-
 import "../css/Resume.css";
 
 export default function Resume() {
@@ -8,18 +7,18 @@ export default function Resume() {
     <div className="resume">
       <Row>
         <Col>
-          <div className="buttonBorder">
-            <a
-              href="https://docs.google.com/document/d/1bIePAKEDjqNSyCack9ZmcJy_sbAqZW13g80xQq4kGuk/edit?usp=sharing"
-              target="_blank"
-              rel=" noopener noreferrer"
-            >
-              <button className="button">Click here for my resume</button>
-            </a>
-          </div>
+          <a
+            href="https://docs.google.com/document/d/1bIePAKEDjqNSyCack9ZmcJy_sbAqZW13g80xQq4kGuk/edit?usp=sharing"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            <h1>Click here for my resume</h1>
+            <div class="drop-container">
+              <div class="drop"></div>
+            </div>
+          </a>
         </Col>
       </Row>
-
     </div>
   );
 }

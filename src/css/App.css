@@ -16,6 +16,7 @@
 /* created className for about and aquatics pages */
 .aboutAquatics {
   min-height: 95vh;
+  /* overflow: scroll; */
 }
 
 
@@ -37,24 +38,16 @@
 }
 
 /* for the title on the projects page */
-h1 {
+.title {
   font-family: bookman;
   margin-top: 10px;
   color: #020873;
 }
 
-
-
-.nav {
+/* .nav {
   background-color: #f2f2f2;
   font-family: bookman;
-}
-
-
-
-
-
-
+} */
 
 .ProjectCard1 {
   margin-top: 5rem;
@@ -69,28 +62,11 @@ h1 {
   padding-bottom: 3%;
 }
 
-.resume {
-  min-height: 90vh;
-}
-
-.button {
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  height: 150px;
-  background-color: white;
-  color: #030abc;
-  border-radius: 50%;
-}
-
-.button:hover {
-  background: #aaee99;
-  color: #030abc;
-}
-
 .tech {
   padding: 10%;
 }
 
+/* remaining classes are for the contact page */
 .contact {
   min-height: 90vh;
 }
@@ -110,6 +86,3 @@ h1 {
   margin-bottom: 15px;
 }
 
-.footer {
-  background-color: #25a6d9;
-}

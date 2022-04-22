@@ -13,6 +13,12 @@
   padding: 1rem;
 }
 
+/* created className for about and aquatics pages */
+.aboutAquatics {
+  min-height: 95vh;
+}
+
+
 /* className for the logo pic on the Aquatics page */
 .profile {
   margin-top: 25px;
@@ -30,9 +36,11 @@
   text-align: justify;
 }
 
-.title {
+/* for the title on the projects page */
+h1 {
   font-family: bookman;
   margin-top: 10px;
+  color: #020873;
 }
 
 
@@ -42,9 +50,7 @@
   font-family: bookman;
 }
 
-.about {
-  min-height: 95vh;
-}
+
 
 
 

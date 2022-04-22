@@ -5,7 +5,7 @@ import "../css/App.css";
 
 export default function Aquatics() {
   return (
-    <div>
+    <div className="aboutAquatics">
       <Row>
         <Col className="profile">
           <img className="img-responsive" src={Logo} alt="logo" />

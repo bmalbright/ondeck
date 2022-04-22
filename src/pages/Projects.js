@@ -11,11 +11,13 @@ import Jester from "../images/jester.png"
 
 export default function Portfolio() {
   return (
-        <div>
-          <h1 className="title">Tech Portfolio</h1>
+        <div className='projects'>
 
-          <p> I am available for freelance web development projects.</p>
           <Container className='tech'>
+
+          <h1>Tech Portfolio</h1>
+
+<p> I am available for freelance web development projects.</p>
           <Row>
               <Col>
                 <Card className="ProjectCard">

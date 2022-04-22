@@ -1,11 +1,11 @@
-/* className located in the app.js file */
+/* className located in the App.js file */
 .portfolio {
   text-align: center;
   background-color: #ffffff;
   color: #030a8c;
 }
 
-/* found in the navbar page */
+/* found in the Navbar page */
 .header {
   color: #020873;
   background-color: white;
@@ -13,7 +13,12 @@
   padding: 1rem;
 }
 
-/* found in the about page and aquatics page */
+/* className for the logo pic on the Aquatics page */
+.profile {
+  margin-top: 25px;
+}
+
+/* found in the About page and Aquatics page */
 .paragraph {
   padding-left: 10%;
   padding-right: 10%;
@@ -37,13 +42,11 @@
   font-family: bookman;
 }
 
-.home {
+.about {
   min-height: 95vh;
 }
 
-.profile {
-  margin-top: 25px;
-}
+
 
 
 

@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import Logo from "../images/ondeck-icon-180.png";
 import "../css/App.css";
 
-export default function Home() {
+export default function Aquatics() {
   return (
     <div>
       <Row>
@@ -56,8 +56,7 @@ export default function Home() {
               to running timing and scoring systems to announcing. I'm also a
               certified admin official.
               <br />
-              <br />
-              I have served on national committees for US Masters
+              <br />I have served on national committees for US Masters
               Swimming, serving a chair of the Officials Committee for two
               years, during which the national officials certification program,
               which had been stalled for 25 years, was created as well as the

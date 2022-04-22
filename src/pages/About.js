@@ -4,7 +4,7 @@ import "../css/App.css";
 
 export default function About() {
   return (
-    <div>
+    <div className="about">
         <Row>
           <Col>
             <p className="paragraph">

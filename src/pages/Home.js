@@ -1,3 +1,5 @@
+
+   
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import "../css/Home.css";
@@ -9,14 +11,11 @@ export default function Home() {
         <Row>
           <Col>
             <p>
-              On
+              ON
               <br />
+              DECK
               <br />
-              Deck
-              <br />
-              <br />
-              Consulting
-              <br />
+              CONSULTING
               <br />
             </p>
           </Col>

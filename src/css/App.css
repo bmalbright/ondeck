@@ -109,8 +109,8 @@ text-align: justify;
 }
 
 .button:hover {
-  background: #aaee99;
-  color: #030abc;
+  background: #030abc;
+  color: white;
 }
 
 .tech{

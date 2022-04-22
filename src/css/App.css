@@ -43,7 +43,7 @@
 
 /* for the title on the projects page */
 .title {
-  font-family: bookman;
+  font-family: Arial, Helvetica, sans-serif;
   margin-top: 10px;
   color: #020873;
 }

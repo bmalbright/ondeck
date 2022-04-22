@@ -15,7 +15,7 @@ export default function Portfolio() {
 
           <Container className='tech'>
 
-          <h1>Tech Portfolio</h1>
+          <h2>Tech Portfolio</h2>
 
 <p> I am available for freelance web development projects.</p>
           <Row>

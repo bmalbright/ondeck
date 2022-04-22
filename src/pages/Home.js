@@ -1,33 +1,27 @@
-import React from 'react';
-import { Col, Row} from 'react-bootstrap';
-import "../css/App.css";
-
+import React from "react";
+import { Col, Row } from "react-bootstrap";
+import "../css/Home.css";
 
 export default function Home() {
   return (
     <div className="home">
-       
-        <div>
-
-        
+      <div>
         <Row>
           <Col>
-            <p className="paragraph">
-            On
-            <br/>
-            <br/>
-            Deck 
-            <br/>
-            <br/>
-            Consulting
-            <br/>
-            <br/>
+            <p>
+              On
+              <br />
+              <br />
+              Deck
+              <br />
+              <br />
+              Consulting
+              <br />
+              <br />
             </p>
           </Col>
         </Row>
-        </div>
-
-
+      </div>
     </div>
   );
 }

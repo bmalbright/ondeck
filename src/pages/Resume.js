@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 
-import "../css/Resume.css";
+import "../css/App.css";
 
 export default function Resume() {
   return (
@@ -14,14 +14,36 @@ export default function Resume() {
               target="_blank"
               rel=" noopener noreferrer"
             >
-              <h1> Click for my resume</h1>
-              <div class="drop-container">
-                <div class="drop"></div>
-              </div>
+              <button className="button">Click here for my resume</button>
             </a>
           </div>
         </Col>
       </Row>
+      {/* <Row className="tech">
+        <Col>
+          <h3 className="title">Full Stack Web Developer</h3>
+          <Row>
+            <Col>
+              <ul>
+                <li>Javascript</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>jQuery</li>
+                <li>MySQL</li>
+              </ul>
+            </Col>
+            <Col>
+              <ul>
+                <li>React</li>
+                <li>HTML</li>
+                <li>Node</li>
+                <li>Bootstrap</li>
+                <li>GraphQL</li>
+              </ul>
+            </Col>
+          </Row>
+        </Col>
+      </Row> */}
     </div>
   );
 }

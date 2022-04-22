@@ -1,11 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav, Container, Image } from "react-bootstrap";
-
 import "../css/App.css";
-
 import Brand from "../images/ondeck-brand.png";
-
 const AppNavbar = () => {
   return (
     <>
@@ -46,5 +43,4 @@ const AppNavbar = () => {
     </>
   );
 };
-
 export default AppNavbar;

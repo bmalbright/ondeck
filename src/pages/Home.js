@@ -1,22 +1,47 @@
-import React from "react";
-import { Col, Row, ThemeProvider } from "react-bootstrap";
+import React from 'react';
+import {
+
+  Col,
+  Row,
+
+} from 'react-bootstrap';
+
+// import Logo from "../images/ondeck-icon-180.png";
 
 import "../css/App.css";
 
 export default function Home() {
   return (
     <div className="home">
-      <ThemeProvider breakpoints={[ 'xxl', 'xl', 'lg', 'md', 'sm', 'xs',]}>
-      <div>
+
+        
+        {/* <Row>
+      
+          <Col className="profile">
+          <img className="img-responsive" src={Logo} alt="logo" />
+          </Col>
+        
+        </Row> */}
+       
+        <div>
+
+        
         <Row>
-          <Col className="loader">
-            <h1>ON</h1>
-            <h1>DECK</h1>
-            <h1>CONSULTING</h1>
+          <Col>
+            <p className="paragraph">
+            On
+            <br/>
+            <br/>
+            Deck 
+            <br/>
+            <br/>
+            Consulting
+            <br/>
+            <br/>
+            </p>
           </Col>
         </Row>
-      </div>
-      </ThemeProvider>
+        </div>
 
 
     </div>

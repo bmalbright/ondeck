@@ -60,10 +60,12 @@ export default function Aquatics() {
                 <br />
                 <br />I have served on national committees for US Masters
                 Swimming, serving a chair of the Officials Committee for two
-                years, during which the national officials certification
-                program, which had been stalled for 25 years, was created as
-                well as the USMS Officials award. I also serve as vice chair of
-                the Legislation Committee.
+                years. During my first year, the national officials certification
+                program, which had been stalled for 25 years, was approached from 
+                a new angle and passed. In my second year as chair, the USMS Officials
+                Award was created. As part of serving as Officials Chair, I was 
+                also a member of the USMS Rules Committee. I also served as vice chair of
+                the USMS Legislation Committee after my time as Officials Chair.
               </p>
             </Col>
           </Row>

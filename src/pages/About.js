@@ -24,6 +24,10 @@ export default function About() {
               community. I mostly announce in Texas but am willing to travel.
               Contact me if you're looking for a professional public address
               announcer to raise the level of your swim meet.
+              <br/>
+              <br/>
+              Another service I provide is voice over. I have a studio so if you
+              need an audio file for a project, shoot me an email and we'll talk. 
             </p>
           </Col>
         </Row>

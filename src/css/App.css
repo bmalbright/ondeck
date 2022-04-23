@@ -1,8 +1,6 @@
 /* className located in the App.js file */
 .portfolio {
   text-align: center;
-  /* background-color: #ffffff; */
-  /* color: #030a8c; */
 }
 
 /* found in the Navbar page */
@@ -12,14 +10,13 @@
   padding: 1rem;
 }
 
-.navLink {
+/* .navLink {
   color: #030A8C;
-}
+} */
 
 /* created className for about and aquatics pages */
 .aboutAquatics {
   min-height: 95vh;
-  /* overflow: scroll; */
   color: #020873;
 }
 
@@ -41,20 +38,19 @@
   text-align: justify;
 }
 
-/* for the title on the projects page */
+/* this group is for the projects page */
+.tech {
+  padding: 15px;
+}
+
 .title {
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 10px;
+  margin-top: 5px;
   color: #020873;
 }
 
-/* .nav {
-  background-color: #f2f2f2;
-  font-family: bookman;
-} */
-
 .ProjectCard1 {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .ProjectTitle {
@@ -62,13 +58,6 @@
   font-family: bookman;
 }
 
-/* .tech {
-  padding-bottom: 3%;
-} */
-
-.tech {
-  padding: 10%;
-}
 
 /* remaining classes are for the contact page */
 .contact {
@@ -89,4 +78,3 @@
   margin-top: 25px;
   margin-bottom: 15px;
 }
-

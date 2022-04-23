@@ -7,3 +7,39 @@
     font-size: 5em; 
     font-family: 'Eagle Lake';
   }
+
+  @media screen and (min-width: 100px) {
+    .name {
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .name {
+      font-size: 40px;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .name {
+      font-size: 55px;
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .name {
+      font-size: 70px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .name {
+      font-size: 85px;
+    }
+  }
+
+  @media screen and (min-width: 1400px) {
+    .name {
+      font-size: 100px;
+    }
+  }

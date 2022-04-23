@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         <Row>
           <Col>
-            <p>
+            <p className="name">
               ON
               <br />
               DECK

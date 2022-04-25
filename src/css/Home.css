@@ -2,44 +2,83 @@
 
 .home {
     min-height: 95vh;
-    margin-top: 75px;
-    color: #020873;
+    margin-top: 200px;
+    /* color: #020873;
     font-size: 5em; 
+    font-family: 'Eagle Lake'; */
+  } 
+
+  /* body{
+    background-color:white;
+  } */
+  
+  .loader{
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family:arial;
+      
+  }
+  .loader h2{
+    text-decoration:uppercase;
+    /* font-size:8em; */
     font-family: 'Eagle Lake';
+    color:rgba(0,0,0,.1);
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhT9AXpUqUyMjILJ9qn9PDvXpdXE-iqbc-HMXHfU04s6rJ0fbT);
+    background-repeat:repeat-x;
+    -webkit-background-clip:text;
+    animation: animate 60s linear infinite;
+    
+  }
+  
+  @keyframes animate{
+    0%{
+      background-position:left 0px top 80px;
+    }
+       40%{
+      background-position:left 800px top -50px;
+    }
+    
+      80%{
+      background-position:left 400px top -50px;
+    }
+
   }
 
+
   @media screen and (min-width: 100px) {
-    .name {
-      font-size: 25px;
+    h2 {
+      font-size: 2em;
     }
   }
 
   @media screen and (min-width: 600px) {
-    .name {
-      font-size: 40px;
+    h2 {
+      font-size: 4em;
     }
   }
 
   @media screen and (min-width: 800px) {
-    .name {
-      font-size: 55px;
+    h2 {
+      font-size: 5em;
     }
   }
 
   @media screen and (min-width: 1000px) {
-    .name {
-      font-size: 70px;
+    h2 {
+      font-size: 6em;
     }
   }
 
   @media screen and (min-width: 1200px) {
-    .name {
-      font-size: 85px;
+    h2 {
+      font-size: 7em;
     }
   }
 
   @media screen and (min-width: 1400px) {
-    .name {
-      font-size: 100px;
+    h2 {
+      font-size: 8em;
     }
-  }
+  } 

@@ -1,24 +1,20 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+// import { Col, Row } from "react-bootstrap";
 import "../css/Home.css";
 
 export default function Home() {
   return (
     <div className="home">
-      <div>
-        <Row>
-          <Col>
-            <p className="name">
-              ON
-              <br />
-              DECK
-              <br />
-              CONSULTING
-              <br />
-            </p>
-          </Col>
-        </Row>
-      </div>
-    </div>
+         {/* <Row>
+           <Col> */}
+            <div className="loader">
+              <h2>ON</h2>
+              <h2>DECK</h2>
+              <h2>CONSULTING</h2>
+            </div>
+           {/* </Col>
+         </Row> */}
+     </div>
   );
+
 }

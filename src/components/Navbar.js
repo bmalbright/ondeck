@@ -28,9 +28,9 @@ const AppNavbar = () => {
                 Tech Projects
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/resume" className="navLink">
+              {/* <Nav.Link as={Link} to="/resume" className="navLink">
                 Resume
-              </Nav.Link>
+              </Nav.Link> */}
 
               <Nav.Link as={Link} to="/contact" className="navLink">
                 Contact Me

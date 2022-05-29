@@ -92,3 +92,23 @@ div.drop-container {
       opacity: 0;
     }
   }
+
+  /* remaining classes are for the contact page */
+.contact {
+  min-height: 90vh;
+}
+
+.clickToEmail {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.emailInfo {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.phoneInfo {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Logo from "../images/ondeck-icon-180.png";
+import AFO from "../images/AFO.jpg";
 import ARC from "../images/ARC.png";
 import NASCO from "../images/NASCO.jpg";
 import TPPC from "../images/TPPC.jpg";
@@ -33,7 +34,9 @@ export default function Aquatics() {
                 running meet operations, as well as for facility audits and
                 safety consulting.
                 <br />
-
+                <Row className="instructor">
+                <img className="img-responsive" src={AFO} alt="Aquatic Faciltiy Operator" />
+                </Row>
                 <br />
                 During 30+ years in aquatics, I worked around the top
                 professionals in aquatic safety and competitive swimming. I
@@ -48,11 +51,16 @@ export default function Aquatics() {
                 maintenance and operations. And an organization that ran a
                 deficit became an organization that had a six month untouchable
                 reserve, a working reserve for upgrades, and paid for major
-                upgrades in cash.
+                upgrades in cash. As a certified Aquatic Facility Operator, I 
+                worked hard to make sure the water was clean and clear, and the
+                temperature was right for the season in a facility that operated 
+                year round. Except for scheduled pool resurfacing/renovations 
+                that were 19 years apart, the pool was closed for less than five
+                days for repairs during my time there. 
                 <br />
                 <Row className="instructor">
-                <img className="img-responsive" src={ARC} alt="logo" />
-                <img className="img-responsive" src={NASCO} alt="logo" />
+                <img className="img-responsive" src={ARC} alt="American Red Cross" />
+                <img className="img-responsive" src={NASCO} alt="NASCO" />
                 </Row>
                 <br />
                 One of the reasons I stayed at WHAC for as long as I did was it
@@ -67,17 +75,17 @@ export default function Aquatics() {
                 <br />
                 <br />
                 <Row className="instructor">
-                <img className="img-responsive" src={NDPA} alt="logo" />
+                <img className="img-responsive" src={NDPA} alt="NDPA" />
                 </Row>
                 <br />
                 <Row className="instructor">
-                <img className="img-responsive" src={AOAP} alt="logo" />
-                <img className="img-responsive" src={NRPA} alt="logo" />
-                <img className="img-responsive" src={TPPC} alt="logo" />
+                <img className="img-responsive" src={AOAP} alt="AOAP" />
+                <img className="img-responsive" src={NRPA} alt="NRPA" />
+                <img className="img-responsive" src={TPPC} alt="TPPC" />
                 </Row>
                 <br />
                 <Row className="instructor">
-                <img className="img-responsive" src={TRAPS} alt="logo" />
+                <img className="img-responsive" src={TRAPS} alt="TRAPS" />
                 </Row>
                 <br />
                 In addition to working in aquatic safety, I also worked at the
@@ -94,9 +102,9 @@ export default function Aquatics() {
                 <br />
                 <br />
                 <Row className="instructor">
-                <img className="img-responsive" src={CTS} alt="logo" />
-                <img className="img-responsive" src={DAK} alt="logo" />
-                <img className="img-responsive" src={HYTEK} alt="logo" />
+                <img className="img-responsive" src={CTS} alt="Colorado Time Systems" />
+                <img className="img-responsive" src={DAK} alt="Daktronics" />
+                <img className="img-responsive" src={HYTEK} alt="Hy Tek" />
                 </Row>
                 <br />
                 <br />I have served on national committees for US Masters
@@ -109,8 +117,8 @@ export default function Aquatics() {
                 the USMS Legislation Committee after my time as Officials Chair.
                 <br />
                 <Row className="instructor">
-                <img className="img-responsive" src={USAS} alt="logo" />
-                <img className="img-responsive" src={USMS} alt="logo" />
+                <img className="img-responsive" src={USAS} alt="USA Swimming" />
+                <img className="img-responsive" src={USMS} alt="US Masters Swimming" />
                 </Row>
                 <br />
               </p>

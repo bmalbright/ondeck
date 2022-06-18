@@ -31,7 +31,7 @@ function SendEmail() {
         <div className="emailInfo">
           <Row>
             <Col>
-              <text>Click the icon to email Brian at:</text>
+              <text>Email Brian at:</text>
             </Col>
           </Row>
           <Row>

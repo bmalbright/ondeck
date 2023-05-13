@@ -7,55 +7,18 @@ function SendEmail() {
   return (
     <Container>
       <div>
-      <Row>
-        <Col>
-        <a href="mailto:brian@ondeckconsulting.net">
-            <h1>Email Me!</h1>
-            <div class="drop-container">
-              <div class="drop">
+        <Row>
+          <Col>
+            <a href="mailto:brian@ondeckconsulting.net">
+              <h1>Email Me!</h1>
+              <div class="drop-container">
+                <div class="drop">
+                </div>
               </div>
-            </div>
             </a>
-        </Col>
-      </Row>
+          </Col>
+        </Row>
       </div>
-      {/* <br/>
-      <br/> */}
-      {/* <div className="contact">
-        <div className="clickToEmail">
-          <Row>
-            <Col>
-              <a href="mailto:brian@ondeckconsulting.net">
-                <img className="img-responsive" src={email} alt="email" />
-              </a>
-            </Col>
-          </Row>
-        </div>
-        <div className="emailInfo">
-          <Row>
-            <Col>
-              <text>Email Brian at:</text>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <text>brian@ondeckconsulting.net</text>
-            </Col>
-          </Row>
-        </div> */}
-        {/* <div className="phoneInfo">
-          <Row>
-            <Col>
-              <text>Call Brian:</text>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <text>512-658-6799</text>
-            </Col>
-          </Row>
-        </div> */}
-      {/* </div> */}
     </Container >
   );
 }

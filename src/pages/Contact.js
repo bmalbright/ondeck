@@ -9,19 +9,19 @@ function SendEmail() {
       <div>
       <Row>
         <Col>
-            <h1>Contact Me!</h1>
+        <a href="mailto:brian@ondeckconsulting.net">
+            <h1>Email Me!</h1>
             <div class="drop-container">
-              <div class="drop"></div>
-              <a href="mailto:brian@ondeckconsulting.net">
-                <img className="img-responsive" src={email} alt="email" />
-              </a>
+              <div class="drop">
+              </div>
             </div>
+            </a>
         </Col>
       </Row>
       </div>
-      <br/>
-      <br/>
-      <div className="contact">
+      {/* <br/>
+      <br/> */}
+      {/* <div className="contact">
         <div className="clickToEmail">
           <Row>
             <Col>
@@ -42,7 +42,7 @@ function SendEmail() {
               <text>brian@ondeckconsulting.net</text>
             </Col>
           </Row>
-        </div>
+        </div> */}
         {/* <div className="phoneInfo">
           <Row>
             <Col>
@@ -55,8 +55,8 @@ function SendEmail() {
             </Col>
           </Row>
         </div> */}
-      </div>
-    </Container>
+      {/* </div> */}
+    </Container >
   );
 }
 

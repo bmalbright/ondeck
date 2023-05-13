@@ -40,7 +40,7 @@ function SendEmail() {
             </Col>
           </Row>
         </div>
-        <div className="phoneInfo">
+        {/* <div className="phoneInfo">
           <Row>
             <Col>
               <text>Call Brian:</text>
@@ -51,7 +51,7 @@ function SendEmail() {
               <text>512-658-6799</text>
             </Col>
           </Row>
-        </div>
+        </div> */}
       </div>
     </Container>
   );

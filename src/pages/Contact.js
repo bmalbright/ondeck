@@ -12,6 +12,9 @@ function SendEmail() {
             <h1>Contact Me!</h1>
             <div class="drop-container">
               <div class="drop"></div>
+              <a href="mailto:brian@ondeckconsulting.net">
+                <img className="img-responsive" src={email} alt="email" />
+              </a>
             </div>
         </Col>
       </Row>

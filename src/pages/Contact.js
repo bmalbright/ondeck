@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import email from "../images/email-icon-76.png";
 import "../css/Contact.css";
 
 function SendEmail() {
   return (
     <Container>
+      <br/>
+      <br/>
       <div>
         <Row>
           <Col>
